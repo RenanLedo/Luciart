@@ -75,11 +75,15 @@ body {
   color: white;
 }
 
+.botao-capa {
+  display: none;
+}
+
 .descricao {
   padding: 40px 10px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
 }
 
 .info-descricao {
@@ -145,7 +149,7 @@ body {
 }
 
 .social img {
-  width: 50px;
+  width: 2em;
 }
 
 footer {
@@ -164,20 +168,30 @@ footer a {
 }
 
 @media (max-width: 600px) {
+  .botao-capa {
+    display: inline;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: white solid 1px;
+    color: white;
+    border-radius: 5px;
+  }
+
   .descricao {
     padding: 40px 0px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
   }
 
   .info-descricao {
+    width: 90%;
+    height: 100%;
     padding: 20px;
-
     background-color: white;
     margin: 0 5px 10px 5px;
-    height: 200px;
-    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
