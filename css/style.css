@@ -233,6 +233,10 @@ footer a {
     top: -7px;
   }
 
+  .info-capa h1 {
+    font-size: 0.9em;
+  }
+
   .botao-capa {
     display: inline;
     padding: 10px;
