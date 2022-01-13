@@ -234,7 +234,10 @@ footer a {
   }
 
   .info-capa h1 {
-    font-size: 0.9em;
+    font-size: 2em;
+  }
+  .info-capa p {
+    font-size: 1em;
   }
 
   .botao-capa {
